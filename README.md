@@ -38,11 +38,11 @@ To build and run the game, follow these steps:
 ```
 + Navigate to the Memory directory in a terminal or command prompt. Make sure you have installed all the prerequisites, then run the following command to build the game:
 ``` 
-  g++ Inputhandle.hpp Inputhandle.cpp TextureManager.cpp TextureManager.cpp main.cpp Vector2D.h -lSDL2 -lSDL2_image
+  make
   ```
 + Run the game by executing the following command:
 ```
-  ./a.out
+  make run
   ```
 ## Contributions
 Contributions to this project are welcome! If you'd like to contribute to this project, please follow these steps:
